@@ -1,13 +1,19 @@
 .navBarHeader{
-    background-color: rgb(0, 238, 255);
+    background-color:#15181b;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 30vh;
+    
 
     img{
-        width:10vw;
-        //height: ;
+        width:10rem;
+        height: 10rem; 
+        border-radius: 100%;
+        border: solid;
+        object-fit: cover;
+        color: #240046;
+        
     }
 
     ul{
@@ -16,10 +22,57 @@
         justify-content: space-around;
         width: 50%;
         list-style-type: none;
+        
     }
 
     li{
-        font-size: 2rem;
+        font-size: 2.2rem;
+        font-weight: 800;
+        
     }
 }
 
+
+@media (min-width: 201px) and (max-width: 500px){
+
+
+    .navBarHeader{
+    background-color:#15181b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    
+
+    img{
+        width:6rem;
+        height: 6rem; 
+        border-radius: 100%;
+        border: solid;
+        object-fit: cover;
+        color: #240046;
+        
+    }
+
+    ul{
+        //border: solid green;
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        list-style-type: none;
+        
+        
+    }
+
+    li{
+        font-size: 1.2rem;
+        font-weight: 600;
+        justify-content: space-around;
+        //border: solid red;
+        width: 50%;
+        
+    }
+}
+
+
+}

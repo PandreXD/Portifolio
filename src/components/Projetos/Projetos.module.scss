@@ -1,5 +1,5 @@
 .sectionProjetos{
-    background-color: #caf0f8;
+     background-color:#ced4da;
     display:flex;
     justify-content: space-around;
     padding-top: 2rem;
@@ -20,6 +20,7 @@
    
 
     h2{
+        
         color: rgb(1, 1, 17);
          padding: 1rem;
     }
@@ -30,3 +31,43 @@
     }
 }
 
+@media (min-width: 201px) and (max-width: 500px){
+
+
+    .sectionProjetos{
+     background-color:#ced4da;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    flex-wrap: wrap ;
+}
+
+.cardProjetos{
+    background-color: aliceblue;
+    border: solid;
+    border-radius: 10px;
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+   
+
+    h2{
+        font-size: 0.8rem;
+        color: rgb(1, 1, 17);
+         padding: 1rem;
+    }
+    p{
+        font-size: 0.6rem;
+    }
+
+    img{
+        width: 80%;
+        
+    }
+}
+
+}

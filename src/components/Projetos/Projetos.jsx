@@ -3,6 +3,7 @@ import { useState } from "react"
 import PetAdopt from "../../assets/pet.jpg"
 import ReciclaTech from "../../assets/recicla.jpg"
 import VerdeAcao from "../../assets/verde.jpg"
+import Connect from "../../assets/desafio-Connect.png"
 
 import styles from "./Projetos.module.scss"
 
@@ -33,9 +34,9 @@ export default function Projetos () {
 
              {
             id: 4,
-             imagem: PetAdopt,
-              nome:"PetAdopt",
-               descricao:"Projeto criado para adoção de pets"
+             imagem: Connect,
+              nome:"DesafioConnect",
+               descricao:"Desafio final em Front"
               
          },
 

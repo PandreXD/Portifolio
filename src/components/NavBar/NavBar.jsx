@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Projetos from"../Projetos/Projetos"
 import Contatos from "../Contatos/Contatos"
 import Inicio from "../Inicio/Inicio"
+import Logo from "../../assets/perfil1.jpeg"
 
 import styles from "./NavBar.module.scss"
 
@@ -14,7 +15,7 @@ export default function NavBar() {
   return (
     <BrowserRouter>
     <nav className={styles.navBarHeader}>
-      <img src="https://play-lh.googleusercontent.com/E6RS-I1T58nvom_QfR7gondwJ1OWqfv2c8lz09FviTc9XWjrNMCl4XiAZD0-6qb0Tw=w256" alt="Logo" />
+      <img src={Logo} alt="Logo" />
       <ul>
         <li> <Link to="/"> Início   </Link> </li>
         <li> <Link to="/projetos"> Projetos </Link> </li>
@@ -23,7 +24,7 @@ export default function NavBar() {
     </nav>
 
     <Routes>
-        <Route path="/inicio" element={<Inicio/>}/>
+        <Route path="/" element={<Inicio/>}/>
         <Route path="/projetos" element={<Projetos/>}/>
         <Route path="/contatos" element={<Contatos/>}/>
     </Routes>
