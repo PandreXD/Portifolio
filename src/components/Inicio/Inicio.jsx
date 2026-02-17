@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from "./inicio.module.scss"
+import styles from "./Inicio.module.scss"
 export default function Inicio() {
   return (
     <main>
