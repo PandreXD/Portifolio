@@ -4,7 +4,7 @@ import Linkedin from "../../assets/linkedin.png"
 import GitHub from "../../assets/logoGithub.png"
 import Gmail from "../../assets/gmail.png"
 
-import styles from "./contatos.module.scss"
+import styles from "./Contatos.module.scss"
 export default function Contatos() {
   return (
     <section>
